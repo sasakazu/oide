@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		73F3E63E236BEFD600339E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F3E63C236BEFD600339E7C /* LaunchScreen.storyboard */; };
 		73F3E649236BEFD600339E7C /* oideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3E648236BEFD600339E7C /* oideTests.swift */; };
 		73F3E654236BEFD600339E7C /* oideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3E653236BEFD600339E7C /* oideUITests.swift */; };
+		73F3E662236BF60B00339E7C /* familyMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3E661236BF60B00339E7C /* familyMain.swift */; };
+		73F3E666236BF6FF00339E7C /* family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3E665236BF6FE00339E7C /* family.swift */; };
 		B1FEEA94DD1F926BFB458C45 /* Pods_oide_oideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F421A30947436AD02C9CDC01 /* Pods_oide_oideUITests.framework */; };
 		DA0E42590F40BB8412BDE16C /* Pods_oide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7DF85E40EBDABBF98C62DA /* Pods_oide.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		73F3E64F236BEFD600339E7C /* oideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F3E653236BEFD600339E7C /* oideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oideUITests.swift; sourceTree = "<group>"; };
 		73F3E655236BEFD600339E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73F3E661236BF60B00339E7C /* familyMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = familyMain.swift; sourceTree = "<group>"; };
+		73F3E665236BF6FE00339E7C /* family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = family.swift; sourceTree = "<group>"; };
 		7807658409AA5B636A82CA1A /* Pods_oideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8109C4BBF5D442422357C3BC /* Pods-oideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oideTests.release.xcconfig"; path = "Target Support Files/Pods-oideTests/Pods-oideTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD7DF85E40EBDABBF98C62DA /* Pods_oide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +115,6 @@
 				3C9C13EFA13FFAFECD5A6573 /* Pods-oideTests.debug.xcconfig */,
 				8109C4BBF5D442422357C3BC /* Pods-oideTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +147,8 @@
 				73F3E633236BEFCE00339E7C /* SceneDelegate.swift */,
 				73F3E635236BEFCE00339E7C /* ViewController.swift */,
 				73F3E637236BEFCE00339E7C /* Main.storyboard */,
+				73F3E665236BF6FE00339E7C /* family.swift */,
+				73F3E661236BF60B00339E7C /* familyMain.swift */,
 				73F3E63A236BEFD600339E7C /* Assets.xcassets */,
 				73F3E63C236BEFD600339E7C /* LaunchScreen.storyboard */,
 				73F3E63F236BEFD600339E7C /* Info.plist */,
@@ -408,8 +413,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F3E666236BF6FF00339E7C /* family.swift in Sources */,
 				73F3E636236BEFCE00339E7C /* ViewController.swift in Sources */,
 				73F3E632236BEFCE00339E7C /* AppDelegate.swift in Sources */,
+				73F3E662236BF60B00339E7C /* familyMain.swift in Sources */,
 				73F3E634236BEFCE00339E7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
